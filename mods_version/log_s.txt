@@ -1,3 +1,0 @@
-WOT 1.2.0.1
-mods version 0.1 
-  19.10.2018 - updated XVM+ .rar: compatible with wot version 1.2.0.1; using nightly build 8.6.6.7
