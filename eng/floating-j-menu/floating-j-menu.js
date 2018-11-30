@@ -3,10 +3,9 @@ var FMpath = "white"	// MENU IMAGE PATH | black | white |
 document.write('<div id="menuJF" class="printhide"><div id="menu-HT">');
 
 // START ICON LINKS
-document.write('<a target="_blank" href="../home/index_h.html"><img src="floating-j-menu/icons-NS/home.png" title="Home" border="0" class="menu-floating-tab"></a>');
-document.write('<a target="_blank" href="../downloads/index_d.html"><img src="floating-j-menu/icons-NS/download.png" title="Downloads" border="0" class="menu-floating-tab"></a>');
-document.write('<a target="_blank" href="../changes/index_c.html"><img src="floating-j-menu/icons-NS/changes.png" title="Changes" border="0" class="menu-floating-tab"></a>');
-document.write('<a target="_blank" href="javascript:{;}" onClick="GateKeeper(); return false"><img src="floating-j-menu/icons-NS/CW.png" title="4-Asi" border="0" class="menu-floating-tab"></a>');
+document.write('<a target="_blank" href="orgcorp/home/index_h.html"><img src="floating-j-menu/icons-NS/home.png" title="Home" border="0" class="menu-floating-tab"></a>');
+document.write('<a target="_blank" href="orgcorp/downloads/index_d.html"><img src="floating-j-menu/icons-NS/download.png" title="Downloads" border="0" class="menu-floating-tab"></a>');
+document.write('<a target="_blank" href="orgcorp/changes/index_c.html"><img src="floating-j-menu/icons-NS/changes.png" title="Changes" border="0" class="menu-floating-tab"></a>');
 document.write('<a href="#"><img src="floating-j-menu/icons-'+FMpath+'/floatm-top.png" border="0" class="menu-floating-tab"></a>');
 
 // COPY AND PASTE ABOVE LINE TO ADD A NEW BUTTON
@@ -15,7 +14,7 @@ document.write('<a href="#"><img src="floating-j-menu/icons-'+FMpath+'/floatm-to
 document.write('</div></div>');
 
 // START FLOATING SCRIPT
-// 2016 © Allwebco Design Corporation
+// 2016 Â© Allwebco Design Corporation
 // YOU DO NOT NEED TO EDIT BELOW THIS LINE
 
 var menuPosition = $('#menuJF').css;
