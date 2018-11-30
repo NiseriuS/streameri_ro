@@ -3,8 +3,8 @@ var FMpath = "white"	// MENU IMAGE PATH | black | white |
 document.write('<div id="menuJF" class="printhide"><div id="menu-HT">');
 
 // START ICON LINKS
-document.write('<a target="_blank" href=".././orgcorp/home/index_h.html"><img src="floating-j-menu/icons-NS/home.png" title="Home" border="0" class="menu-floating-tab"></a>');
-document.write('<a target="_blank" href="././orgcorp/downloads/index_d.html"><img src="floating-j-menu/icons-NS/download.png" title="Downloads" border="0" class="menu-floating-tab"></a>');
+document.write('<a target="_blank" href="./../orgcorp/home/index_h.html"><img src="floating-j-menu/icons-NS/home.png" title="Home" border="0" class="menu-floating-tab"></a>');
+document.write('<a target="_blank" href="./../orgcorp/downloads/index_d.html"><img src="floating-j-menu/icons-NS/download.png" title="Downloads" border="0" class="menu-floating-tab"></a>');
 document.write('<a target="_blank" href="./../orgcorp/changes/index_c.html"><img src="floating-j-menu/icons-NS/changes.png" title="Changes" border="0" class="menu-floating-tab"></a>');
 document.write('<a href="#"><img src="floating-j-menu/icons-'+FMpath+'/floatm-top.png" border="0" class="menu-floating-tab"></a>');
 
