@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>BMBLE | Mountain Pass | tier VIII</title>
+<link rel="stylesheet" href="slideshow-addon/slideshow-addon.css" type="text/css">
+<script type="text/javascript" src="slideshow-addon/slideshow-addon.js"></script>
+</head>
+
+<body>
+<br><br><br>
+<!-- START SLIDESHOW -->
+<div class="center-slideshow">
+<form name="slideforma">
+<!-- EDIT THIS AREA TO ADD AND REMOVE PICTURES FROM THE SLIDESHOW -->
+<input type="hidden" value="https://eu.wargaming.net/clans/media/clans/emblems/cl_134/500157134/emblem_195x195.png" name="slide" onchange="change();">
+<input type="hidden" value="slideshow-addon/BMBLE_21.11.png" name="slide" onchange="change();">
+<!-- THE NEXT LINE IS THE STARTING SLIDE -->
+<img src="https://eu.wargaming.net/clans/media/clans/emblems/cl_134/500157134/emblem_195x195.png" id="show" class="slide-image" alt="Slideshow"><br>
+<!-- START SLIDESHOW BUTTONS -->
+<table class="slide-buttons"><tr><td>
+<input type=button onclick="previous();" value="&#9668;" title="Previous" class="button-slides" onmouseover="this.className='buttonon-slides'" onmouseout="this.className='button-slides'">
+</td><td>
+<input type=button name="slidebutton" onclick="ap(this.value);" value="AutoPlay" title="AutoPlay" class="button-slides" onmouseover="this.className='buttonon-slides'" onmouseout="this.className='button-slides'">
+</td><td>
+<input type=button onclick="next();" value="&#9658;" title="Next" class="button-slides" onmouseover="this.className='buttonon-slides'" onmouseout="this.className='button-slides'">
+</td></tr></table>
+<!-- END SLIDESHOW BUTTONS -->
+</form>
+</div>
+<!-- END SLIDESHOW -->
+</body></html>
