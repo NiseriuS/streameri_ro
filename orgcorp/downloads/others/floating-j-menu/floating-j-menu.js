@@ -6,7 +6,7 @@ document.write('<div id="menuJF" class="printhide"><div id="menu-HT">');
 document.write('<a target="_blank" href="../home/index_h.html"><img src="floating-j-menu/icons-NS/home.png" title="Home" border="0" class="menu-floating-tab"></a>');
 document.write('<a target="_blank" href="../downloads/index_d.html"><img src="floating-j-menu/icons-NS/download.png" title="Downloads" border="0" class="menu-floating-tab"></a>');
 document.write('<a target="_blank" href="../changes/index_c.html"><img src="floating-j-menu/icons-NS/changes.png" title="Changes" border="0" class="menu-floating-tab"></a>');
-document.write('<a target="_blank" href="file:///E:/%20%20!!!%20Git%20installing/templates/orgcorp/CW/index_cw.html#"><img src="floating-j-menu/icons-NS/CW.png" title="4-Asi CW" border="0" class="menu-floating-tab"></a>');
+document.write('<a target="_blank" href="javascript:{;}" onClick="GateKeeper(); return false"><img src="floating-j-menu/icons-NS/CW.png" title="4-Asi" border="0" class="menu-floating-tab"></a>');
 document.write('<a href="#"><img src="floating-j-menu/icons-'+FMpath+'/floatm-top.png" border="0" class="menu-floating-tab"></a>');
 
 // COPY AND PASTE ABOVE LINE TO ADD A NEW BUTTON
