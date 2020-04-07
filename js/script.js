@@ -1,5 +1,5 @@
-var streamapi="https://wind-bow.glitch.me/twitch-api/streams/";
-var channelapi="https://wind-bow.glitch.me/twitch-api/channels/";
+var streamapi="https://api.twitch.tv/kraken/streams/";
+var channelapi="https://api.twitch.tv/kraken/streams/channels/";
 var channels=["dhidden","orzanel","dacucelrau","last_gh0st","ebeb252","alexfitw","terrible_driving","iamanc13nt","r0byftw","kaput_dab0t","tatabufnita","kalibrra","Phenomenw","Dineti28"];
 
 $(document).ready(function(){
