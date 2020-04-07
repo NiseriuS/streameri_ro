@@ -1,6 +1,6 @@
 var streamapi="https://wind-bow.glitch.me/twitch-api/streams/";
 var channelapi="https://wind-bow.glitch.me/twitch-api/channels/";
-var channels=["freecodecamp", "storbeck", "terakilobyte", "habathcx","RobotCaleb","thomasballinger","noobs2ninjas","beohoff","ESL_SC2","OgamingSC2","comster404","brunofin"];
+var channels=["dhidden","orzanel","dacucelrau","last_gh0st","ebeb252","alexfitw","terrible_driving","iamanc13nt","r0byftw","kaput_dab0t","tatabufnita","kalibrra","Phenomenw","Dineti28"];
 
 function allStreamCall(streamchannel){
 	var logo,name,game,status,statusdesc,channel_link;
